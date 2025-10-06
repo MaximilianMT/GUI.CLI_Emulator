@@ -1,0 +1,1 @@
+python3 2_Config.py vfs.xml start.txt
