@@ -1,0 +1,5 @@
+echo $HOME
+ls
+cd test
+unknown
+exit

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <dir name="home">
+        <file name="readme.txt">Это пример файла в виртуальной файловой системе</file>
+    </dir>
+    <dir name="documents">
+        <file name="report.docx">Файл отчета</file>
+        <file name="data.csv">Таблица данных</file>
+    </dir>
+    <dir name="bin">
+        <file name="script.sh">#!/bin/bash</file>
+    </dir>
+</root>
