@@ -1,0 +1,7 @@
+Package: nano
+Version: 6.2
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libtinfo6 (>= 6)
+
+Package: bash
+Version: 5.1
+Depends: libc6 (>= 2.34), libtinfo6 (>= 6)
