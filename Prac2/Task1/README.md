@@ -48,6 +48,7 @@ options:
 Примеры запуска: 
 python3 cli_variant20.py --package jq --repo http://ru.archive.ubuntu.com/ubuntu --version 1.6 --depth 3 --test
 
+
 === Настройки анализа ===
 Имя пакета: jq
 APT-репозиторий: http://ru.archive.ubuntu.com/ubuntu
