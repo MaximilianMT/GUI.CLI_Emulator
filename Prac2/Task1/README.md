@@ -46,25 +46,30 @@ options:
 #---------------------------------------
 
 Примеры запуска: 
-python3 cli_variant20.py --package demo --repo https://github.com/test/demo --version 1.0 --depth 2 --test
+python3 cli_variant20.py --package jq --repo http://ru.archive.ubuntu.com/ubuntu --version 1.6 --depth 3 --test
 
-Вывод:
 === Настройки анализа ===
-Имя пакета: demo
-Репозиторий: https://github.com/test/demo
+Имя пакета: jq
+APT-репозиторий: http://ru.archive.ubuntu.com/ubuntu
 Режим теста: Да
-Версия: 1.0
-Глубина анализа: 2
+Версия: 1.6
+Глубина анализа: 3
 
-Все параметры успешно обработаны 
+Все параметры успешно проверены
 
 #---------------------------------------
 
 Пример ошибки:
-python3 cli_variant20.py --package demo
+python3 cli_variant20.py --package !!! --repo ftp://ubuntu --version abc --depth -2
 
 Вывод:
-error: the following arguments are required: --repo, --version
+python3 cli_variant20.py --package clear! --repo ftp://ubuntu --version abc --depth -2
+
+=== Обнаружены ошибки параметров ===
+Недопустимое имя пакета (--package).
+Параметр --repo должен быть ссылкой на APT-репозиторий (http или https).
+Неверный формат версии (--version). Пример: 1.0 или 6.2
+Глубина (--depth) должна быть больше 0.
 
 #---------------------------------------
 
