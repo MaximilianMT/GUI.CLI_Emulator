@@ -1,0 +1,30 @@
+Package: jq
+Version: 1.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 222
+Depends: libc6 (>= 2.34), libjq1 (>= 1.6-2), libonig5 (>= 6.9.1)
+Section: utils
+Priority: optional
+Homepage: https://stedolan.github.io/jq/
+Description: lightweight and flexible command-line JSON processor
+ JQ is like sed for JSON data – you can use it to slice and filter and map
+ and transform structured data with the same ease that sed, awk, grep and
+ friends let you play with text.
+
+Package: libjq1
+Version: 1.6-2.1ubuntu3
+Architecture: amd64
+Depends: libc6 (>= 2.34), libonig5 (>= 6.9.1)
+Description: C library for jq command line JSON processor
+
+Package: libonig5
+Version: 6.9.7.1-2
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+Description: regular expressions library
+
+Package: libc6
+Version: 2.35-0ubuntu3.1
+Architecture: amd64
+Description: GNU C Library: Shared libraries
