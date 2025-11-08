@@ -22,6 +22,7 @@ E:
 F:
 G: B
 
+
 Команда для запуска: python3 stage4.py --repo test_graph.txt --package A --depth 3 --test
 
 пример вывода программы
