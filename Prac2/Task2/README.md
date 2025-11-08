@@ -64,7 +64,7 @@ Packages не найден, пробуем http://archive.ubuntu.com/ubuntu/dist
 #---------------------------------------
 
 Пример 2 - Тест с локальным файлом
-Команда в терминале: python3 stage2.py --package jq --version 1.6 --repo Packages.txt
+Команда в терминале: python3 stage2.py --package jq --version 1.6 --repo Packages1
 
 === Сбор данных о зависимостях ===
 Пакет: jq
