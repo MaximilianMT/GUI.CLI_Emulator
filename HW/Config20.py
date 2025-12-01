@@ -3,6 +3,7 @@ import sys
 import xml.etree.ElementTree as ET
 from xml.dom import minidom # Добавили новую библ для красивого вывода XML формата (с табуляцией)
 
+
 # ИСКЛЮЧЕНИЕ ДЛЯ ОШИБОК
 class ParseError(Exception):
     def __init__(self, message, line, col):
