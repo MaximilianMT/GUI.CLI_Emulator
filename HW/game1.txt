@@ -1,0 +1,14 @@
+def default_hp := 100;
+def player_name := [[Hero]];
+
+{
+    player => {
+        name => .(player_name).,
+        hp   => .(default_hp).,
+        inventory => {
+            slot1 => [[sword]],
+            slot2 => [[shield]]
+        }
+    },
+    difficulty => [[normal]]
+}

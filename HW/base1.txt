@@ -1,0 +1,14 @@
+-- Константы
+def host := [[localhost]];
+def port := 5432;
+def user := [[admin]];
+
+{
+    db_host => .(host).,
+    db_port => .(port).,
+    db_user => .(user).,
+    pool    => {
+        size   => 10,
+        timeout => 30
+    }
+}

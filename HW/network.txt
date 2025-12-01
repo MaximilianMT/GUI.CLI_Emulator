@@ -1,0 +1,15 @@
+-- значения по умолчанию
+def default_mask := [[255.255.255.0]];
+
+{
+    interface1 => {
+        ip   => [[192.168.0.10]],
+        mask => .(default_mask).,
+        mtu  => 1500
+    },
+    interface2 => {
+        ip   => [[10.0.0.5]],
+        mask => .(default_mask).,
+        mtu  => 1400
+    }
+}
