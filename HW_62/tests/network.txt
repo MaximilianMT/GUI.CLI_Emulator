@@ -1,0 +1,4 @@
+var host := "192.168.1.10"
+var port := 443
+var proto := "tcp"
+var server := << !{host}, !{port}, !{proto} >>
