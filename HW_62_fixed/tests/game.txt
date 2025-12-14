@@ -1,0 +1,3 @@
+var name := "Knight"
+var hp := 150
+var inventory := << "sword", "shield", !{hp} >>
